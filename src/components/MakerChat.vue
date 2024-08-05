@@ -74,7 +74,7 @@
       ]
       }, {
         headers: {
-          'Authorization': `Bearer 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`,
+          'Authorization': 'Bearer '+import.meta.env.VITE_OPEN_AI,
           'Content-Type': 'application/json'
         }
       })
